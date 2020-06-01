@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Random dog pictures</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Random dog picture</h1>
+        <form>
+            <fieldset>
+                <label>Which breed of dogs would you like to see? <br>Type a breed name in the box below</label>
+                <input id="breed" type="text" value="poodle" required>
+            </fieldset>
+            <button>Show me the dog!</button>
+        </form>
+        <section class="results hidden"></section>
+    </div>     
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>   
+</body>
+</html>
